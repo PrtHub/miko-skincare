@@ -2,6 +2,8 @@ import { MetadataRoute } from "next";
 import { LAYERING_RULES } from "@/lib/data/layeringRules";
 import { PREGNANCY_INGREDIENTS } from "@/lib/data/pregnancyData";
 import { ACTIVES_LIST } from "@/lib/data/actives";
+import { BLOG_POSTS } from "@/lib/data/blogs";
+import { GUIDES_LIST } from "@/lib/data/guides";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
@@ -20,6 +22,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: now,
       changeFrequency: "monthly",
       priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blogs`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/guides`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
     },
     {
       url: `${baseUrl}/can-i-use`,
@@ -91,10 +105,28 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
+  // Dynamic blog routes: /blogs/[slug]
+  const blogRoutes: MetadataRoute.Sitemap = BLOG_POSTS.map((post) => ({
+    url: `${baseUrl}/blogs/${post.slug}`,
+    lastModified: new Date(post.updatedAt),
+    changeFrequency: "weekly",
+    priority: 0.85,
+  }));
+
+  // Dynamic guide routes: /guides/[slug]
+  const guideRoutes: MetadataRoute.Sitemap = GUIDES_LIST.map((guide) => ({
+    url: `${baseUrl}/guides/${guide.slug}`,
+    lastModified: new Date(guide.updatedAt),
+    changeFrequency: "weekly",
+    priority: 0.85,
+  }));
+
   return [
     ...staticRoutes,
     ...pairRoutes,
     ...pregnancyRoutes,
     ...ingredientRoutes,
+    ...blogRoutes,
+    ...guideRoutes,
   ];
 }

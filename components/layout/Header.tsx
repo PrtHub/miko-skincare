@@ -57,6 +57,12 @@ export function Header() {
             Pricing
           </Link>
           <Link
+            href="/guides"
+            className="hover:text-[#241E19] transition-colors py-1"
+          >
+            Guides
+          </Link>
+          <Link
             href="/about"
             className="hover:text-[#241E19] transition-colors py-1"
           >
@@ -125,6 +131,20 @@ export function Header() {
             className="block text-sm font-medium text-[#554C43] hover:text-[#241E19] py-1.5"
           >
             Pricing
+          </Link>
+          <Link
+            href="/guides"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-sm font-medium text-[#554C43] hover:text-[#241E19] py-1.5"
+          >
+            Guides
+          </Link>
+          <Link
+            href="/blogs"
+            onClick={() => setMobileMenuOpen(false)}
+            className="block text-sm font-medium text-[#554C43] hover:text-[#241E19] py-1.5"
+          >
+            Blog
           </Link>
           <Link
             href="/about"

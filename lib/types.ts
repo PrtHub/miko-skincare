@@ -90,3 +90,63 @@ export interface FAQItem {
   category: "routine" | "conflicts" | "pregnancy" | "general";
   isMyth?: boolean;
 }
+
+export interface BlogSection {
+  heading: string;
+  body: string[];
+  callout?: {
+    type: "note" | "myth" | "takeaway";
+    text: string;
+  };
+  inciList?: string[];
+}
+
+export interface BlogPost {
+  id: string;
+  slug: string;
+  title: string;
+  seoTitle: string;
+  description: string;
+  category: "Cosmetic Chemistry" | "Myth Busters" | "Privacy & Architecture" | "Formulation Science";
+  publishedAt: string;
+  updatedAt: string;
+  readTime: string;
+  author: string;
+  summary: string;
+  featured?: boolean;
+  sections: BlogSection[];
+  relatedActives?: string[];
+  relatedPairs?: string[];
+  tags: string[];
+}
+
+export interface GuideStep {
+  stepNumber: string;
+  title: string;
+  timing: string;
+  instructions: string;
+  rationale: string;
+  recommendedTextures: string[];
+  watchOutFor?: string;
+}
+
+export interface GuideArticle {
+  id: string;
+  slug: string;
+  title: string;
+  seoTitle: string;
+  description: string;
+  category: "Starting Actives" | "Routine Architecture" | "Life-State" | "Barrier Restoration";
+  level: "Beginner" | "Intermediate" | "Advanced";
+  publishedAt: string;
+  updatedAt: string;
+  readTime: string;
+  summary: string;
+  keyTakeaways: string[];
+  steps: GuideStep[];
+  commonMistakes: string[];
+  recommendedActives: string[];
+  relatedGuides?: string[];
+  relatedPairs?: string[];
+}
+

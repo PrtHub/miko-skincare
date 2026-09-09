@@ -36,6 +36,22 @@ export function Footer() {
             <ul className="space-y-2 text-xs">
               <li>
                 <Link
+                  href="/guides"
+                  className="hover:text-[#241E19] transition-colors font-medium text-[#241E19]"
+                >
+                  Master Guides & Protocols
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/blogs"
+                  className="hover:text-[#241E19] transition-colors font-medium text-[#241E19]"
+                >
+                  Science & Formulation Blog
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/can-i-use"
                   className="hover:text-[#241E19] transition-colors"
                 >
