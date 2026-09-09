@@ -44,6 +44,30 @@ export function Footer() {
               </li>
               <li>
                 <Link
+                  href="/concerns"
+                  className="hover:text-[#241E19] transition-colors font-medium text-[#241E19]"
+                >
+                  Skin Concerns Catalog
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/routine"
+                  className="hover:text-[#241E19] transition-colors font-medium text-[#241E19]"
+                >
+                  Skin-Type Blueprints
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/sensitivities"
+                  className="hover:text-[#241E19] transition-colors font-medium text-[#241E19]"
+                >
+                  Contact Sensitivities
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/blogs"
                   className="hover:text-[#241E19] transition-colors font-medium text-[#241E19]"
                 >
@@ -80,14 +104,6 @@ export function Footer() {
                   className="hover:text-[#241E19] transition-colors"
                 >
                   Application Order Guide
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/can-i-use/vitamin-c-and-niacinamide"
-                  className="hover:text-[#241E19] transition-colors"
-                >
-                  Vit C + Niacinamide Myth
                 </Link>
               </li>
             </ul>

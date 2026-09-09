@@ -150,3 +150,73 @@ export interface GuideArticle {
   relatedPairs?: string[];
 }
 
+export interface ConcernActiveMapping {
+  activeName: string;
+  activeSlug: string;
+  role: string;
+  mechanism: string;
+}
+
+export interface AvoidedIngredientForConcern {
+  ingredient: string;
+  reason: string;
+}
+
+export interface SkinConcern {
+  id: string;
+  slug: string;
+  name: string;
+  seoTitle: string;
+  tagline: string;
+  description: string;
+  biologicalMechanism: string;
+  primaryActives: ConcernActiveMapping[];
+  secondaryActives: ConcernActiveMapping[];
+  activesToAvoid: AvoidedIngredientForConcern[];
+  amRoutineStrategy: string;
+  pmRoutineStrategy: string;
+  faqs: { question: string; answer: string }[];
+  relatedPairs?: string[];
+}
+
+export interface RoutineStepItem {
+  order: string;
+  category: string;
+  productType: string;
+  purpose: string;
+  texture: string;
+}
+
+export interface SkinTypeRoutine {
+  id: string;
+  slug: string;
+  skinType: string;
+  seoTitle: string;
+  tagline: string;
+  description: string;
+  characteristics: string[];
+  textureStrategy: string;
+  amSteps: RoutineStepItem[];
+  pmSteps: RoutineStepItem[];
+  middayRule: string;
+  weeklyActiveCadence: string;
+  pitfallsToAvoid: string[];
+  recommendedActives: string[];
+}
+
+export interface SkinSensitivity {
+  id: string;
+  slug: string;
+  name: string;
+  seoTitle: string;
+  tagline: string;
+  description: string;
+  commonInci: string[];
+  biologicalMechanism: string;
+  reactionSymptoms: string[];
+  toleratedAlternatives: string[];
+  labelReadingTip: string;
+  relatedActives?: string[];
+}
+
+

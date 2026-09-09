@@ -4,6 +4,9 @@ import { PREGNANCY_INGREDIENTS } from "@/lib/data/pregnancyData";
 import { ACTIVES_LIST } from "@/lib/data/actives";
 import { BLOG_POSTS } from "@/lib/data/blogs";
 import { GUIDES_LIST } from "@/lib/data/guides";
+import { CONCERNS_LIST } from "@/lib/data/concerns";
+import { SKIN_TYPES_LIST } from "@/lib/data/skinTypes";
+import { SENSITIVITIES_LIST } from "@/lib/data/sensitivities";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
@@ -36,6 +39,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/concerns`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/routine`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/sensitivities`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/can-i-use`,
       lastModified: now,
       changeFrequency: "weekly",
@@ -57,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/routine/application-order`,
       lastModified: now,
       changeFrequency: "weekly",
-      priority: 0.8,
+      priority: 0.85,
     },
     {
       url: `${baseUrl}/support`,
@@ -121,6 +142,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
+  // Dynamic concern routes: /concerns/[slug]
+  const concernRoutes: MetadataRoute.Sitemap = CONCERNS_LIST.map((concern) => ({
+    url: `${baseUrl}/concerns/${concern.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.9,
+  }));
+
+  // Dynamic routine skin-type routes: /routine/[slug]
+  const routineRoutes: MetadataRoute.Sitemap = SKIN_TYPES_LIST.map((routine) => ({
+    url: `${baseUrl}/routine/${routine.slug}`,
+    lastModified: now,
+    changeFrequency: "weekly",
+    priority: 0.88,
+  }));
+
+  // Dynamic sensitivity routes: /sensitivities/[slug]
+  const sensitivityRoutes: MetadataRoute.Sitemap = SENSITIVITIES_LIST.map(
+    (sens) => ({
+      url: `${baseUrl}/sensitivities/${sens.slug}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.88,
+    })
+  );
+
   return [
     ...staticRoutes,
     ...pairRoutes,
@@ -128,5 +175,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...ingredientRoutes,
     ...blogRoutes,
     ...guideRoutes,
+    ...concernRoutes,
+    ...routineRoutes,
+    ...sensitivityRoutes,
   ];
 }
