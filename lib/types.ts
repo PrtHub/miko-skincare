@@ -107,7 +107,13 @@ export interface BlogPost {
   title: string;
   seoTitle: string;
   description: string;
-  category: "Cosmetic Chemistry" | "Myth Busters" | "Privacy & Architecture" | "Formulation Science";
+  category:
+    | "Cosmetic Chemistry"
+    | "Myth Busters"
+    | "Privacy & Architecture"
+    | "Formulation Science"
+    | "Industry & Regulation"
+    | "Brand & Product Teardown";
   publishedAt: string;
   updatedAt: string;
   readTime: string;
