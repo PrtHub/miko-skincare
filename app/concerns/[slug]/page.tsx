@@ -378,7 +378,7 @@ export default async function ConcernDetailPage({ params }: PageProps) {
               href="/concerns"
               className="text-xs font-mono text-[#7C7166] hover:text-[#241E19]"
             >
-              View all 10 concerns →
+              View all {CONCERNS_LIST.length} concerns →
             </Link>
           </div>
 

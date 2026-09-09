@@ -8,24 +8,24 @@ import { AppStoreButton } from "@/components/ui/Button";
 const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
 
 export const metadata = {
-  title: "Target Skin Concerns with Safe Actives | Miko",
+  title: "Target Skin Concerns with Evidence-Based Actives | Miko",
   description:
-    "Evidence-based active ingredient protocols for hyperpigmentation, clogged pores, damaged barriers, melasma, and facial redness.",
+    "Evidence-based active protocols for hyperpigmentation, acne breakouts, post-acne marks, barrier damage, laxity, melasma, and redness.",
   alternates: {
     canonical: "/concerns",
   },
   openGraph: {
-    title: "Target Skin Concerns with Safe Actives | Miko",
+    title: "Target Skin Concerns with Evidence-Based Actives | Miko",
     description:
-      "Evidence-based active ingredient protocols for hyperpigmentation, clogged pores, damaged barriers, melasma, and facial redness.",
+      "Evidence-based active protocols for hyperpigmentation, acne breakouts, post-acne marks, barrier damage, laxity, melasma, and redness.",
     url: `${baseUrl}/concerns`,
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Target Skin Concerns with Safe Actives | Miko",
+    title: "Target Skin Concerns with Evidence-Based Actives | Miko",
     description:
-      "Biological active ingredient matching for 10 primary skin concerns from Miko.",
+      "Biological active ingredient matching for primary skin concerns from Miko.",
   },
 };
 
@@ -35,9 +35,9 @@ export default function ConcernsHubPage() {
     "@graph": [
       {
         "@type": "CollectionPage",
-        name: "Target Skin Concerns with Safe Actives",
+        name: "Target Skin Concerns with Evidence-Based Actives",
         description:
-          "Evidence-based active ingredient protocols for hyperpigmentation, clogged pores, damaged barriers, melasma, and facial redness.",
+          "Evidence-based active protocols for hyperpigmentation, acne breakouts, post-acne marks, barrier damage, laxity, melasma, and redness.",
         url: `${baseUrl}/concerns`,
       },
       {

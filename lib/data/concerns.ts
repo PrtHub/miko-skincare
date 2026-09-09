@@ -521,6 +521,368 @@ export const CONCERNS_LIST: SkinConcern[] = [
     ],
     relatedPairs: ["vitamin-c-and-niacinamide", "vitamin-c-and-glycolic-acid"],
   },
+  {
+    id: "concern-active-acne",
+    slug: "inflammatory-acne-breakouts",
+    name: "Inflammatory Acne & Breakouts",
+    seoTitle: "Best Skincare Actives for Acne Breakouts | Miko",
+    tagline: "Cutibacterium acnes suppression, follicular desquamation, and cytokine regulation.",
+    description:
+      "Erythematous papules, pustules, and localized inflammation provoked by follicular micro-plugging, anaerobic microbial colonization, and toll-like receptor cascade activation.",
+    biologicalMechanism:
+      "Follicular retention hyperkeratosis creates an anaerobic, lipid-rich microenvironment within the pilosebaceous infundibulum. Cutibacterium acnes proliferates and metabolizes sebum triglycerides into irritating free fatty acids. C. acnes cell-wall components trigger Toll-like receptor 2 (TLR-2) on monocytes and keratinocytes, stimulating secretion of interleukin-1 alpha (IL-1a), IL-8, and TNF-alpha. Polymorphonuclear neutrophils migrate into the follicle, releasing reactive oxygen species and hydrolytic enzymes that rupture the follicular epithelium into surrounding dermis.",
+    primaryActives: [
+      {
+        activeName: "Salicylic Acid (BHA)",
+        activeSlug: "aha-bha",
+        role: "Lipophilic Follicular Cleanser",
+        mechanism: "Penetrates hydrophobic sebum to dissolve intra-infundibular desmosomes, purging trapped corneocytes and suppressing microbial niches.",
+      },
+      {
+        activeName: "Retinoids",
+        activeSlug: "retinol",
+        role: "Follicular Differentiation Normalizer",
+        mechanism: "Downregulates hyper-adherence of follicular duct keratinocytes, preventing microcomedone genesis and facilitating drainage.",
+      },
+      {
+        activeName: "Niacinamide (Vitamin B3)",
+        activeSlug: "niacinamide",
+        role: "Sebum Excretion & Inflammatory Modulator",
+        mechanism: "Reduces total sebaceous excretion rate and inhibits the release of pro-inflammatory cytokines IL-8 and IL-6.",
+      },
+    ],
+    secondaryActives: [
+      {
+        activeName: "Centella & Ectoin",
+        activeSlug: "centella",
+        role: "Neutrophilic Anti-Inflammatory Buffer",
+        mechanism: "Down-regulates NF-kB activation, reducing inflammatory blemish swelling and preventing post-breakout scarring.",
+      },
+      {
+        activeName: "Ceramides & Lipids",
+        activeSlug: "ceramides",
+        role: "Barrier Protector During Anti-Acne Therapy",
+        mechanism: "Compensates for barrier lipid leaching caused by topical acne treatments, maintaining stratum corneum integrity.",
+      },
+    ],
+    activesToAvoid: [
+      {
+        ingredient: "High-concentration drying simple alcohols",
+        reason: "Dehydrates surface cells, provoking compensatory hyper-seborrhea and increasing micro-fissuring.",
+      },
+      {
+        ingredient: "Heavy occlusive waxes & isopropyl esters (e.g., Isopropyl Myristate)",
+        reason: "Wedges inside inflamed pilosebaceous ducts, accelerating microcomedone formation.",
+      },
+    ],
+    amRoutineStrategy: "Microbial and sebum control: Salicylic acid cleanser + Niacinamide 3–5% + Lightweight fluid mineral sunscreen.",
+    pmRoutineStrategy: "Follicular differentiation: Retinoid 3–4 nights weekly; Centella and ceramide recovery on alternate nights.",
+    faqs: [
+      {
+        question: "Why does popping blemishes cause worse breakouts?",
+        answer: "Physical pressure ruptures the weakened follicular wall internally, spreading C. acnes lipases and neutrophilic debris into surrounding dermis and converting a superficial pustule into deep nodulocystic inflammation.",
+      },
+      {
+        question: "Does acne mean skin is unwashed?",
+        answer: "No. Acne is a neuro-immunological and follicular keratinization disorder driven by hormones and microbial interactions, not surface hygiene. Excessive scrubbing aggravates barrier breakdown.",
+      },
+    ],
+    relatedPairs: ["retinol-and-benzoyl-peroxide", "retinol-and-glycolic-acid"],
+  },
+  {
+    id: "concern-pie",
+    slug: "post-inflammatory-erythema",
+    name: "Post-Inflammatory Erythema (PIE)",
+    seoTitle: "How to Fade Post-Acne PIE Red Marks | Miko",
+    tagline: "Microvascular ectasia resolution, capillary repair, and daylight photodamage defense.",
+    description:
+      "Pink, red, or purple flat macules that linger after inflammatory blemishes resolve, caused by damaged, dilated microcapillary beds in the papillary dermis.",
+    biologicalMechanism:
+      "Unlike Post-Inflammatory Hyperpigmentation (PIH), which is driven by melanocyte melanin synthesis, Post-Inflammatory Erythema (PIE) is a vascular phenomenon. The inflammatory response of an acne papule releases angiogenic cytokines (VEGF) that damage microvascular basement membranes, leaving papillary dermal capillaries chronically dilated and engorged with static deoxygenated blood. Because melanin is not the causative pigment, traditional tyrosinase inhibitors are ineffective; treatment requires vascular stabilization, anti-inflammatory cytokine suppression, and strict non-thermal UV defense.",
+    primaryActives: [
+      {
+        activeName: "Centella & Ectoin",
+        activeSlug: "centella",
+        role: "Vascular Endothelial Repair Promoter",
+        mechanism: "Madecassoside accelerates microvascular re-endothelialization, reducing capillary permeability and extinguishing local tissue erythema.",
+      },
+      {
+        activeName: "Niacinamide",
+        activeSlug: "niacinamide",
+        role: "Microvascular Integrity & Barrier Shield",
+        mechanism: "Inhibits histamine-mediated capillary dilation and reinforces the dermal-epidermal junction to protect vulnerable vascular beds.",
+      },
+    ],
+    secondaryActives: [
+      {
+        activeName: "Retinoids",
+        activeSlug: "retinol",
+        role: "Dermal Extracellular Matrix Remodeler",
+        mechanism: "Stimulates collagen synthesis around dilated microcapillaries, providing structural scaffolding that compresses superficial vascular pooling.",
+      },
+      {
+        activeName: "Hyaluronic Acid & Polyols",
+        activeSlug: "hyaluronic-acid",
+        role: "Non-Inflammatory Dermal Cushion",
+        mechanism: "Maintains optimal hydration without generating thermal heat or vascular stress.",
+      },
+    ],
+    activesToAvoid: [
+      {
+        ingredient: "Aggressive high-concentration glycolic acid peels",
+        reason: "Induces intense local vasodilatation and heat, perpetuating microvascular pooling and prolonging redness.",
+      },
+      {
+        ingredient: "Menthol and camphor cooling agents",
+        reason: "Triggers rebound axon-reflex vasodilation and neurovascular erythema.",
+      },
+    ],
+    amRoutineStrategy: "Vascular calming & shielding: Centella serum + Niacinamide + Non-nano Zinc Oxide SPF (zinc exerts innate anti-erythema benefits).",
+    pmRoutineStrategy: "Microcapillary structural repair: Low-dose retinoid alternating with rich Centella and ceramide barrier emulsion.",
+    faqs: [
+      {
+        question: "How do I tell PIE apart from PIH?",
+        answer: "Perform the glass slide blanch test: press a clear glass slide firmly against the mark. If the redness disappears momentarily under pressure, it is vascular PIE. If the dark brown spot remains visible under pressure, it is melanin PIH.",
+      },
+      {
+        question: "Can chemical peels fade PIE?",
+        answer: "Generally no. Most medium-depth chemical peels cause inflammatory heating that exacerbates microvascular dilation. Gentle vascular-targeted actives and patience yield superior resolution.",
+      },
+    ],
+    relatedPairs: ["retinol-and-niacinamide", "ceramides-and-retinol"],
+  },
+  {
+    id: "concern-skin-laxity",
+    slug: "skin-laxity-sagging",
+    name: "Loss of Firmness & Skin Laxity",
+    seoTitle: "Actives for Skin Firmness & Elasticity | Miko",
+    tagline: "Elastin fibrillogenesis, dermal-epidermal junction remodeling, and glycation mitigation.",
+    description:
+      "Progressive weakening of dermal structural scaffolding, resulting in diminished tissue recoil, ptosis, and reduced facial contour definition.",
+    biologicalMechanism:
+      "Cutaneous firmness relies on type I and III collagen fibril bundles interwoven with oxytalan and elaunin elastic fibers, anchored at the dermal-epidermal junction (DEJ) via collagen IV and VII. With chronological aging and chronic UV exposure, elastolytic matrix metalloproteinases degrade elastic fibers faster than fibroblasts can replace them. Simultaneously, advanced glycation end-products (AGEs) cross-link collagen into brittle, non-compliant matrices, causing dermal deflation and gravity-induced tissue sagging.",
+    primaryActives: [
+      {
+        activeName: "Signal Peptides & Copper",
+        activeSlug: "peptides",
+        role: "Matrikine Extracellular Matrix Activator",
+        mechanism: "Tripeptide and pentapeptide sequences bind fibroblast surface receptors, upregulating tropoelastin and fibrillin-1 synthesis while reinforcing collagen IV at the DEJ.",
+      },
+      {
+        activeName: "Retinoids",
+        activeSlug: "retinol",
+        role: "Fibroblast Gene Expression Stimulator",
+        mechanism: "Suppresses matrix metalloproteinases (MMP-1, MMP-8) while directly stimulating dermal fibroblasts to synthesize fresh glycosaminoglycans and procollagen.",
+      },
+    ],
+    secondaryActives: [
+      {
+        activeName: "L-Ascorbic Acid (Vitamin C)",
+        activeSlug: "vitamin-c",
+        role: "Collagen Cross-Linking Co-Factor",
+        mechanism: "Co-factors prolyl and lysyl hydroxylase enzymes to assemble stable triple-helix collagen fibers capable of resisting mechanical tension.",
+      },
+      {
+        activeName: "Ceramides & Lipids",
+        activeSlug: "ceramides",
+        role: "Epidermal Turgor Supporter",
+        mechanism: "Maintains optimal stratum corneum hydration and volume, enhancing surface cutaneous elasticity.",
+      },
+    ],
+    activesToAvoid: [
+      {
+        ingredient: "Low-pH direct acids applied concurrently with copper peptides",
+        reason: "Acidic pH below 4.0 hydrolyzes delicate peptide linkages and dissociates catalytic copper ions.",
+      },
+      {
+        ingredient: "Skipping broad-spectrum UVA photoprotection",
+        reason: "UVA radiation penetrates deep into the reticular dermis, cleaving elastic fibers and accelerating solar elastosis.",
+      },
+    ],
+    amRoutineStrategy: "Dermal protection & signaling: Vitamin C + Signal Peptides followed by broad-spectrum high-UVA sunscreen.",
+    pmRoutineStrategy: "Architectural remodeling: Encapsulated Retinal or Tretinoin alternating with nourishing peptide and ceramide creams.",
+    faqs: [
+      {
+        question: "Can topical skincare reverse severe skin sagging?",
+        answer: "Topical actives significantly improve epidermal turgor, micro-elasticity, and DEJ anchorage. However, deep muscular and subcutaneous fat pad descent requires clinical dermatological or surgical modalities.",
+      },
+    ],
+    relatedPairs: ["peptides-and-acids", "ceramides-and-retinol"],
+  },
+  {
+    id: "concern-under-eye",
+    slug: "under-eye-dark-circles-puffiness",
+    name: "Periorbital Dark Circles & Puffiness",
+    seoTitle: "Actives for Under-Eye Dark Circles | Miko",
+    tagline: "Microcapillary hemocateresis, lymphatic drainage, and orbital dermal thickening.",
+    description:
+      "Bluish-purple vascular shadowing, post-inflammatory periorbital pigmentation, and morning lymphatic fluid stagnation in the delicate peri-ocular zone.",
+    biologicalMechanism:
+      "Eyelid skin is the thinnest on the human body (approximately 0.5 mm thick, lacking subcutaneous fat). Dark circles arise from three discrete mechanisms: (1) Vascular pooling: deoxygenated blood and hemoglobin breakdown products (hemosiderin and biliverdin) showing through translucent dermis; (2) Pigmentary: dermal melanocytosis from friction or UV; and (3) Lymphatic: overnight orbital fluid extravasation due to horizontal recumbency. Treatment requires vasoconstrictors, gentle collagen stimulants to thicken the dermal cushion, and lymphatic mobilization.",
+    primaryActives: [
+      {
+        activeName: "Signal Peptides & Copper",
+        activeSlug: "peptides",
+        role: "Periorbital Dermis Thickening Agent",
+        mechanism: "Stimulates localized collagen synthesis to increase dermis thickness, physically shielding visible underlying microcapillaries.",
+      },
+      {
+        activeName: "Niacinamide",
+        activeSlug: "niacinamide",
+        role: "Microcirculation & Pigment Reducer",
+        mechanism: "Improves microcapillary tone, inhibits melanosome transfer, and brightens periorbital hyperpigmentation.",
+      },
+    ],
+    secondaryActives: [
+      {
+        activeName: "Centella & Ectoin",
+        activeSlug: "centella",
+        role: "Capillary Fragility Stabilizer",
+        mechanism: "Strengthens microvascular endothelium to decrease erythrocyte leakage and soothe periorbital edema.",
+      },
+      {
+        activeName: "Hyaluronic Acid & Polyols",
+        activeSlug: "hyaluronic-acid",
+        role: "Trough Volume Plumper",
+        mechanism: "Provides temporary pneumatic hydration to the tear trough depression, smoothing ambient shadow casting.",
+      },
+    ],
+    activesToAvoid: [
+      {
+        ingredient: "High-concentration direct acids (Glycolic Acid > 5%)",
+        reason: "Easily migrates into the conjunctival sac and provokes severe peri-ocular irritant dermatitis.",
+      },
+      {
+        ingredient: "Heavy comedogenic plant butters along the lash line",
+        reason: "Can occlude Meibomian glands, provoking chalazions or blepharitis.",
+      },
+    ],
+    amRoutineStrategy: "Vasoconstriction & shadow smoothing: Caffeine and peptide eye fluid + Tinted mineral eye SPF.",
+    pmRoutineStrategy: "Periorbital dermal reinforcement: Encapsulated low-strength retinaldehyde or peptide cream gently pressed along orbital bone.",
+    faqs: [
+      {
+        question: "Why does rubbing your eyes make dark circles darker?",
+        answer: "Chronic mechanical friction triggers post-inflammatory hyperpigmentation (melanin deposits) and induces micro-ruptures in delicate peri-orbital capillaries, spilling hemosiderin pigment into the dermis.",
+      },
+    ],
+    relatedPairs: ["retinol-and-niacinamide", "retinol-and-hyaluronic-acid"],
+  },
+  {
+    id: "concern-enlarged-pores",
+    slug: "enlarged-pores-follicular-laxity",
+    name: "Enlarged Pores & Follicular Laxity",
+    seoTitle: "How to Minimize Enlarged Pores: Actives | Miko",
+    tagline: "Perifollicular collagen reinforcement, sebum compaction release, and optical refinement.",
+    description:
+      "Visibly dilated pilosebaceous orifices across the nose, medial cheeks, and forehead, exacerbated by heavy sebum flow and loss of surrounding collagen support.",
+    biologicalMechanism:
+      "Pore diameter is governed by two independent forces: internal distension and external structural support. High sebaceous excretion rates physically distend the infundibular canal with oxidized sebum and corneocytes. Simultaneously, chronological photoaging degrades the peri-follicular collagen and elastin 'collar' that keeps the pore tightly cinched. When this fibrous ring weakens, the pore relaxes into an enlarged oval or teardrop morphology. Refining pores requires dissolving internal compaction while rebuilding the surrounding collagen ring.",
+    primaryActives: [
+      {
+        activeName: "Niacinamide",
+        activeSlug: "niacinamide",
+        role: "Sebum Flow Regulator & Pore Elasticity Booster",
+        mechanism: "Reduces daily sebaceous excretion rate and enhances infundibular wall elasticity to prevent progressive ductal stretching.",
+      },
+      {
+        activeName: "Salicylic Acid (BHA)",
+        activeSlug: "aha-bha",
+        role: "Intra-Canal Lipophilic Desmolytic",
+        mechanism: "Dissolves lipid bonds between desquamated cells within the pore canal, eliminating mechanical outward distension.",
+      },
+    ],
+    secondaryActives: [
+      {
+        activeName: "Retinoids",
+        activeSlug: "retinol",
+        role: "Perifollicular Collagen Scaffold Rebuilder",
+        mechanism: "Upregulates procollagen synthesis in the dermal cuff encircling each follicle, restoring tightening tension.",
+      },
+      {
+        activeName: "AHA & BHA Acids",
+        activeSlug: "aha-bha",
+        role: "Pore Edge Smoothing Exfoliant",
+        mechanism: "Softens the elevated rim of keratinized cells surrounding dilated orifices, reducing shadow-casting.",
+      },
+    ],
+    activesToAvoid: [
+      {
+        ingredient: "Adhesive pore strips and mechanical suction devices",
+        reason: "Exerts traction that stretches and permanently tears delicate perifollicular elastin fibers, worsening laxity.",
+      },
+      {
+        ingredient: "High-concentration drying astringents",
+        reason: "Dehydrates the skin surface, causing surrounding tissue to collapse and paradoxically highlighting pore margins.",
+      },
+    ],
+    amRoutineStrategy: "Sebum regulation & pore smoothing: Gentle cleanser + Niacinamide 3–5% + Mattifying fluid SPF.",
+    pmRoutineStrategy: "Ductal clearing & collagen tightening: Salicylic acid 2 nights weekly alternating with Retinoid 3 nights weekly.",
+    faqs: [
+      {
+        question: "Can pores permanently open and close like doors?",
+        answer: "No. Pores lack muscular tissue and cannot contract like sphincters. They appear smaller when cleared of oxidized dark debris and when the surrounding dermal collagen matrix is firm and well-hydrated.",
+      },
+    ],
+    relatedPairs: ["retinol-and-glycolic-acid", "retinol-and-niacinamide"],
+  },
+  {
+    id: "concern-xerosis",
+    slug: "xerosis-severe-dry-skin",
+    name: "Xerosis & Cutaneous Scaling",
+    seoTitle: "How to Treat Xerosis & Dry Flaking Skin | Miko",
+    tagline: "Physiological lipid replenishment, natural moisturizing factor synthesis, and desquamation control.",
+    description:
+      "True lipid-deficient dry skin characterized by a depleted intercellular lipid matrix, micro-fissuring, visible powdery desquamation, and pruritus.",
+    biologicalMechanism:
+      "Xerosis is a true lipid deficiency distinct from dehydration. In xerotic skin, epidermal synthesis of ceramides (especially long-chain acylceramides 1 and 4), cholesterol, and free fatty acids is chronically suppressed. Without cohesive lipid lamellae, the stratum corneum cannot retain bound water. Dehydrated hydrolytic enzymes (such as steroid sulfatase and chymotrypsin) fail to dissolve desmosomes, causing dead corneocytes to detach in irregular, visible white flakes rather than microscopic single cells.",
+    primaryActives: [
+      {
+        activeName: "Ceramides & Lipids",
+        activeSlug: "ceramides",
+        role: "Equimolar Lamellar Restorer",
+        mechanism: "Supplies bio-identical ceramides, cholesterol, and free fatty acids in an optimal 3:1:1 ratio to reconstruct deficient intercellular lamellae.",
+      },
+      {
+        activeName: "Hyaluronic Acid & Polyols",
+        activeSlug: "hyaluronic-acid",
+        role: "Enzymatic Hydration Activator",
+        mechanism: "Provides necessary aqueous environment to reactivate desquamatory enzymes, halting dry flake formation.",
+      },
+    ],
+    secondaryActives: [
+      {
+        activeName: "Centella & Ectoin",
+        activeSlug: "centella",
+        role: "Pruritus & Micro-Fissure Reliever",
+        mechanism: "Calms cutaneous nerve excitability and promotes re-epithelialization across dry epidermal fissures.",
+      },
+      {
+        activeName: "Signal Peptides & Copper",
+        activeSlug: "peptides",
+        role: "Basal Keratinocyte Membrane Support",
+        mechanism: "Supports underlying extracellular matrix integrity to improve epidermal barrier turnover.",
+      },
+    ],
+    activesToAvoid: [
+      {
+        ingredient: "Strong foaming sulfate cleansers",
+        reason: "Further leaches scarce intercellular lipids, accelerating scaling and pruritus.",
+      },
+      {
+        ingredient: "Physical rough sponges and abrasive scrubs",
+        reason: "Strips immature corneocytes prematurely, exposing sensitive sub-layers and provoking intense stinging.",
+      },
+    ],
+    amRoutineStrategy: "Lipid replenishment: Non-foaming cleansing lotion + Ceramide barrier cream + Moisturizing mineral sunscreen.",
+    pmRoutineStrategy: "Intensive moisture sealing: Hyaluronic serum on damp skin + Rich physiological lipid balm (ceramides, cholesterol, squalane).",
+    faqs: [
+      {
+        question: "What is the difference between dry skin and dehydrated skin?",
+        answer: "Dry skin is a genetic skin type lacking biological lipids (sebum and ceramides). Dehydrated skin is a temporary condition lacking water in the upper layers, which can occur even in oily skin.",
+      },
+    ],
+    relatedPairs: ["ceramides-and-retinol", "retinol-and-hyaluronic-acid"],
+  },
 ];
 
 export function getConcernBySlug(slug: string): SkinConcern | undefined {
