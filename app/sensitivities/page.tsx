@@ -10,14 +10,14 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
 export const metadata = {
   title: "Common Skincare Sensitivities & Irritants | Miko",
   description:
-    "Clinical dossiers on skincare irritants: fragrances, denatured alcohol, malassezia triggers, chemical sunscreen filters, and sulfate detergents.",
+    "Clinical dossiers on contact allergens and irritants: fragrances, drying alcohols, preservatives, lanolin, glycols, comedogenic esters, and detergents.",
   alternates: {
     canonical: "/sensitivities",
   },
   openGraph: {
     title: "Common Skincare Sensitivities & Irritants | Miko",
     description:
-      "Clinical dossiers on skincare irritants: fragrances, denatured alcohol, malassezia triggers, chemical sunscreen filters, and sulfate detergents.",
+      "Clinical dossiers on contact allergens and irritants: fragrances, drying alcohols, preservatives, lanolin, glycols, comedogenic esters, and detergents.",
     url: `${baseUrl}/sensitivities`,
     type: "website",
   },
@@ -37,7 +37,7 @@ export default function SensitivitiesHubPage() {
         "@type": "CollectionPage",
         name: "Common Skincare Sensitivities & Irritants",
         description:
-          "Clinical dossiers on skincare irritants: fragrances, denatured alcohol, malassezia triggers, chemical sunscreen filters, and sulfate detergents.",
+          "Clinical dossiers on contact allergens and irritants: fragrances, drying alcohols, preservatives, lanolin, glycols, comedogenic esters, and detergents.",
         url: `${baseUrl}/sensitivities`,
       },
       {

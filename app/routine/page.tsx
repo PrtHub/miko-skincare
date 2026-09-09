@@ -10,14 +10,14 @@ const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
 export const metadata = {
   title: "Skincare Routine by Skin Type: AM & PM Guides | Miko",
   description:
-    "Evidence-based AM and PM routine blueprints for oily, dry, sensitive, combination, acne-prone, and mature skin types.",
+    "Evidence-based AM and PM routine blueprints for normal, oily, dry, sensitive, combination, acne-prone, and mature skin types.",
   alternates: {
     canonical: "/routine",
   },
   openGraph: {
     title: "Skincare Routine by Skin Type: AM & PM Guides | Miko",
     description:
-      "Evidence-based AM and PM routine blueprints for oily, dry, sensitive, combination, acne-prone, and mature skin types.",
+      "Evidence-based AM and PM routine blueprints for normal, oily, dry, sensitive, combination, acne-prone, and mature skin types.",
     url: `${baseUrl}/routine`,
     type: "website",
   },
@@ -37,7 +37,7 @@ export default function RoutineHubPage() {
         "@type": "CollectionPage",
         name: "Skincare Routine by Skin Type: AM & PM Guides",
         description:
-          "Evidence-based AM and PM routine blueprints for oily, dry, sensitive, combination, acne-prone, and mature skin types.",
+          "Evidence-based AM and PM routine blueprints for normal, oily, dry, sensitive, combination, acne-prone, and mature skin types.",
         url: `${baseUrl}/routine`,
       },
       {

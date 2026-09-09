@@ -276,7 +276,7 @@ export default async function SensitivityDetailPage({ params }: PageProps) {
               href="/sensitivities"
               className="text-xs font-mono text-[#7C7166] hover:text-[#241E19]"
             >
-              View all 6 dossiers →
+              View all {SENSITIVITIES_LIST.length} dossiers →
             </Link>
           </div>
 

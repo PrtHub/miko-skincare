@@ -2,6 +2,93 @@ import { SkinTypeRoutine } from "../types";
 
 export const SKIN_TYPES_LIST: SkinTypeRoutine[] = [
   {
+    id: "routine-normal-skin",
+    slug: "normal-skin",
+    skinType: "Normal Skin",
+    seoTitle: "Skincare Routine for Normal Skin: AM & PM | Miko",
+    tagline: "Physiological equilibrium maintenance and photoprotective resilience.",
+    description:
+      "An evidence-based maintenance protocol for eudermic skin with balanced sebum production, intact stratum corneum barrier function, and uniform texture.",
+    characteristics: [
+      "Balanced sebaceous excretion: neither persistent midday shine nor uncomfortable tightness",
+      "Smooth, resilient stratum corneum with low baseline transepidermal water loss (TEWL)",
+      "Uniform skin texture with fine, barely visible follicular pore ostia",
+      "High environmental tolerance with infrequent erythema, flaking, or reactive breakouts",
+    ],
+    textureStrategy:
+      "Fluid emulsions, lightweight hydrators, stable antioxidant serums, and broad-spectrum fluid sunscreens. Heavy occlusives and aggressive astringents are unnecessary.",
+    amSteps: [
+      {
+        order: "Step 01",
+        category: "Cleanser",
+        productType: "Lukewarm Water Splash or Mild Conditioning Wash",
+        purpose: "Clears overnight sweat and surface metabolites without disturbing the natural acid mantle.",
+        texture: "Tepid water or gentle conditioning milk",
+      },
+      {
+        order: "Step 02",
+        category: "Antioxidant Defense",
+        productType: "Vitamin C 10–15% (L-Ascorbic Acid or 3-O-Ethyl)",
+        purpose: "Scavenges daylight free radicals and photoprotects dermal fibroblasts against oxidative degradation.",
+        texture: "Lightweight aqueous fluid",
+      },
+      {
+        order: "Step 03",
+        category: "Moisturizer",
+        productType: "Balanced Ceramide-Glycerin Emulsion",
+        purpose: "Supplies physiological humectants and lipids to maintain intercellular lamellar flexibility.",
+        texture: "Light fluid lotion",
+      },
+      {
+        order: "Step 04",
+        category: "Sunscreen",
+        productType: "Broad-Spectrum SPF 50+ (Fluid or Lotion)",
+        purpose: "Non-negotiable daily defense against UVA/UVB photon damage and photo-aging.",
+        texture: "Invisible fluid or light lotion",
+      },
+    ],
+    pmSteps: [
+      {
+        order: "Step 01",
+        category: "First Cleanse",
+        productType: "Gentle Cleansing Oil or Micellar Water",
+        purpose: "Effortlessly breaks down waterproof sunscreen polymers and airborne particulates.",
+        texture: "Rinseable oil or micellar fluid",
+      },
+      {
+        order: "Step 02",
+        category: "Second Cleanse",
+        productType: "Conditioning Amino-Acid Gel Cleanser",
+        purpose: "Purifies the skin at physiological pH (5.0–5.5) without surfactant-induced lipid elution.",
+        texture: "Soft foaming gel",
+      },
+      {
+        order: "Step 03",
+        category: "Cellular Renewal",
+        productType: "Encapsulated Retinol 0.2%–0.3% or Gentle AHA",
+        purpose: "Promotes steady, unhurried basal keratinocyte proliferation and cellular renewal.",
+        texture: "Light treatment emulsion",
+      },
+      {
+        order: "Step 04",
+        category: "Moisturizer",
+        productType: "Physiological Barrier Cream",
+        purpose: "Replenishes ceramides and squalane to support nocturnal trans-corneocyte repair.",
+        texture: "Silk-finish cream",
+      },
+    ],
+    middayRule:
+      "Reapply broad-spectrum sunscreen if outdoors or sitting near windows. No blotting or corrective powders required under normal physiological equilibrium.",
+    weeklyActiveCadence:
+      "Retinol 3 to 4 evenings weekly. Gentle chemical exfoliant (5% Lactic Acid or Mandelic Acid) once weekly on a non-retinol night. 2 to 3 nights reserved for pure barrier nourishment.",
+    pitfallsToAvoid: [
+      "Over-treating balanced skin with harsh multi-acid peels under the assumption that 'more actives' produce better skin",
+      "Skipping daily broad-spectrum photoprotection because skin doesn't currently exhibit signs of damage",
+      "Constantly swapping products and experimenting with complex 10-step routines that introduce unnecessary allergens and disrupt natural balance",
+    ],
+    recommendedActives: ["vitamin-c", "retinol", "ceramides", "hyaluronic-acid"],
+  },
+  {
     id: "routine-oily-skin",
     slug: "oily-skin",
     skinType: "Oily Skin",
