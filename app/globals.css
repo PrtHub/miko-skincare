@@ -1,26 +1,144 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Miko Core Ground & Ink Palette */
+  --ink: #241E19;
+  --ink2: #554C43;
+  --ink3: #6E6358;
+  --ink4: #7C7166;
+  --faint: #A2988B;
+  --line: #EFE7DC;
+  --surface-sunken: #F2EBE1;
+  --surface: #FFFFFF;
+  --paper: #FBF7F2;
+
+  /* Active Chemistry Information Colors */
+  --retinoid: #D97742;
+  --aha-bha: #C4574E;
+  --vitamin-c: #E0AE39;
+  --barrier: #5E9E78;
+  --hydrator: #6B93B8;
+  --peptide: #8E7AB5;
+  --brightening: #A97DBA;
+  --soothing: #6FA98A;
+  --fragrance: #C98BA6;
+
+  /* Verdict Colors */
+  --verdict-fine: #4E8F68;
+  --verdict-separate: #B07A26;
+  --verdict-avoid: #B84A3D;
+
+  /* Level Tints */
+  --level-good: #4E8F68;
+  --level-neutral: #7C7166;
+  --level-watch: #B07A26;
+  --level-avoid: #B84A3D;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme {
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-ink2: var(--ink2);
+  --color-ink3: var(--ink3);
+  --color-ink4: var(--ink4);
+  --color-faint: var(--faint);
+  --color-line: var(--line);
+  --color-surface: var(--surface);
+  --color-surface-sunken: var(--surface-sunken);
+
+  --color-retinoid: var(--retinoid);
+  --color-aha-bha: var(--aha-bha);
+  --color-vitamin-c: var(--vitamin-c);
+  --color-barrier: var(--barrier);
+  --color-hydrator: var(--hydrator);
+  --color-peptide: var(--peptide);
+  --color-brightening: var(--brightening);
+  --color-soothing: var(--soothing);
+  --color-fragrance: var(--fragrance);
+
+  --font-serif: var(--font-young-serif), Georgia, serif;
+  --font-sans: var(--font-instrument-sans), system-ui, -apple-system, sans-serif;
+  --font-mono: var(--font-ibm-plex-mono), Menlo, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* Base Body Styling */
+html {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-instrument-sans), system-ui, -apple-system, sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--paper);
+  color: var(--ink);
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom Scrollbar for warm aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--paper);
+}
+::-webkit-scrollbar-thumb {
+  background: #DFD5C6;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C4B7A4;
+}
+
+/* Miko Signature 3D Shelf Construction */
+/* The board is three strips: lit top surface, front edge, darker underside */
+.shelf-board-container {
+  position: relative;
+  width: 100%;
+}
+
+.shelf-strip-top {
+  height: 10px;
+  background: linear-gradient(180deg, #F5EEE4 0%, #E8DCCE 100%);
+  border-top: 1px solid #FCF9F5;
+  border-left: 1px solid #EFE4D6;
+  border-right: 1px solid #EFE4D6;
+  transform: perspective(400px) rotateX(25deg);
+  transform-origin: bottom center;
+}
+
+.shelf-strip-front {
+  height: 14px;
+  background: linear-gradient(180deg, #DFD1BE 0%, #CEBFA9 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  border-bottom: 1px solid #B8A68D;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.6);
+}
+
+.shelf-strip-underside {
+  height: 12px;
+  background: linear-gradient(180deg, #9C8971 0%, #7E6D57 100%);
+  box-shadow: 0 12px 24px -4px rgba(36, 30, 25, 0.18), 0 4px 8px -2px rgba(36, 30, 25, 0.12);
+}
+
+/* Bottle Styling with Lit Left Edge */
+.miko-bottle-object {
+  position: relative;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+  box-shadow:
+    inset 2px 0 0 rgba(255, 255, 255, 0.6),
+    inset -1px 0 0 rgba(36, 30, 25, 0.08),
+    0 8px 16px -4px rgba(36, 30, 25, 0.12);
+}
+
+.miko-bottle-object:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    inset 2.5px 0 0 rgba(255, 255, 255, 0.8),
+    inset -1px 0 0 rgba(36, 30, 25, 0.1),
+    0 14px 24px -6px rgba(36, 30, 25, 0.18);
 }
