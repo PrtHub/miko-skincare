@@ -71,7 +71,6 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/miko-mark-master.jpg" },
-      { url: "/favicon.ico" },
     ],
     apple: [
       { url: "/miko-mark-master.jpg" },
