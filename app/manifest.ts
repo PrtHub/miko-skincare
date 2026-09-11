@@ -12,6 +12,12 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#FBF7F2",
     icons: [
       {
+        src: "/miko-mark-master.jpg",
+        sizes: "any",
+        type: "image/jpeg",
+        purpose: "any",
+      },
+      {
         src: "/favicon.ico",
         sizes: "any",
         type: "image/x-icon",

@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { AppStoreButton } from "@/components/ui/Button";
 
 export function Header() {
@@ -27,9 +28,16 @@ export function Header() {
     >
       <div className="max-w-6xl mx-auto px-4 sm:px-6 flex items-center justify-between">
         {/* Brandmark */}
-        <Link href="/" className="flex items-center gap-2.5 group">
-          <div className="w-8 h-8 rounded-lg bg-[#241E19] flex items-center justify-center text-[#FBF7F2] font-serif text-lg font-bold shadow-xs transition-transform group-hover:scale-105">
-            M
+        <Link href="/" className="flex items-center gap-2.5 group" aria-label="Miko Home">
+          <div className="relative w-8 h-8 rounded-lg overflow-hidden shadow-xs transition-transform group-hover:scale-105 border border-[#241E19]/10 shrink-0 bg-[#1A1612]">
+            <Image
+              src="/miko-mark-master.jpg"
+              alt="Miko icon"
+              width={32}
+              height={32}
+              className="w-full h-full object-cover"
+              priority
+            />
           </div>
           <span className="font-serif text-2xl tracking-tight text-[#241E19]">
             Miko

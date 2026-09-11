@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { AppStoreButton } from "@/components/ui/Button";
 
 export function Footer() {
@@ -11,8 +12,14 @@ export function Footer() {
           {/* Brand Col */}
           <div className="space-y-4">
             <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-[#241E19] flex items-center justify-center text-[#FBF7F2] font-serif text-lg font-bold">
-                M
+              <div className="relative w-8 h-8 rounded-lg overflow-hidden shadow-xs border border-[#241E19]/10 shrink-0 bg-[#1A1612]">
+                <Image
+                  src="/miko-mark-master.jpg"
+                  alt="Miko icon"
+                  width={32}
+                  height={32}
+                  className="w-full h-full object-cover"
+                />
               </div>
               <span className="font-serif text-2xl tracking-tight text-[#241E19]">
                 Miko

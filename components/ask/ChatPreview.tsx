@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
+import Image from "next/image";
 
 interface PromptExample {
   id: string;
@@ -78,8 +79,14 @@ export function ChatPreview() {
 
         {/* Miko Assistant Response Bubble */}
         <div className="flex items-start gap-3">
-          <div className="w-7 h-7 rounded-lg bg-[#241E19] flex items-center justify-center text-white font-serif text-xs font-bold shrink-0 mt-0.5">
-            M
+          <div className="relative w-7 h-7 rounded-lg overflow-hidden shadow-2xs border border-[#241E19]/10 shrink-0 mt-0.5 bg-[#1A1612]">
+            <Image
+              src="/miko-mark-master.jpg"
+              alt="Miko Assistant icon"
+              width={28}
+              height={28}
+              className="w-full h-full object-cover"
+            />
           </div>
           <div className="max-w-lg p-4 rounded-2xl rounded-tl-xs bg-white border border-[#EFE7DC] text-xs sm:text-sm text-[#241E19] leading-relaxed shadow-2xs space-y-2">
             <p>{selectedEx.mikoResponse}</p>

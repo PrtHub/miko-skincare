@@ -68,6 +68,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     siteName: "Miko Skincare",
   },
+  icons: {
+    icon: [
+      { url: "/miko-mark-master.jpg" },
+      { url: "/favicon.ico" },
+    ],
+    apple: [
+      { url: "/miko-mark-master.jpg" },
+    ],
+  },
   twitter: {
     card: "summary_large_image",
     title: "Miko — Skincare Routine Builder",
@@ -94,7 +103,7 @@ export default function RootLayout({
         "@type": "Organization",
         name: "Miko Skincare",
         url: "https://miko-skincare.app",
-        logo: "https://miko-skincare.app/favicon.ico",
+        logo: "https://miko-skincare.app/miko-mark-master.jpg",
         description: "Impartial skincare routine builder and cosmetic ingredient decoder.",
       },
       {

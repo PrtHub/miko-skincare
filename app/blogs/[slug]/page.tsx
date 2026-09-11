@@ -82,7 +82,7 @@ export default async function BlogPostPage({ params }: PageProps) {
           name: "Miko Skincare",
           logo: {
             "@type": "ImageObject",
-            url: `${baseUrl}/favicon.ico`,
+            url: `${baseUrl}/miko-mark-master.jpg`,
           },
         },
         mainEntityOfPage: {
