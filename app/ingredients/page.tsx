@@ -6,7 +6,7 @@ import { ACTIVES_LIST } from "@/lib/data/actives";
 import { Badge } from "@/components/ui/Badge";
 import { AppStoreButton } from "@/components/ui/Button";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
 export const metadata = {
   title: "Active Skincare Ingredients Directory | Miko",

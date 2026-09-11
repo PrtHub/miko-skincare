@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { AppStoreButton } from "@/components/ui/Button";
 import { THEME } from "@/lib/theme";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
 export const metadata = {
   title: "About Miko — The Impartial Skincare Routine Builder",

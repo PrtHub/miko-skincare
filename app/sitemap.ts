@@ -9,7 +9,7 @@ import { SKIN_TYPES_LIST } from "@/lib/data/skinTypes";
 import { SENSITIVITIES_LIST } from "@/lib/data/sensitivities";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
   const now = new Date();
 
   // Static core routes

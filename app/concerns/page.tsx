@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { CONCERNS_LIST } from "@/lib/data/concerns";
 import { AppStoreButton } from "@/components/ui/Button";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
 export const metadata = {
   title: "Target Skin Concerns with Evidence-Based Actives | Miko",

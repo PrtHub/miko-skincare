@@ -20,7 +20,7 @@ export async function generateStaticParams() {
   }));
 }
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
 export async function generateMetadata({ params }: PageProps) {
   const { slug } = await params;

@@ -21,7 +21,7 @@ export async function generateStaticParams() {
 export async function generateMetadata({ params }: PageProps) {
   const { pair } = await params;
   const rule = getRuleByPairSlug(pair);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
   if (!rule) {
     const formatted = pair.replace(/-/g, " ");
@@ -68,7 +68,7 @@ export async function generateMetadata({ params }: PageProps) {
 export default async function CanIUseDetailPage({ params }: PageProps) {
   const { pair } = await params;
   const rule = getRuleByPairSlug(pair);
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
   // If not found in known rules, handle gracefully
   if (!rule) {

@@ -4,7 +4,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { AppStoreButton } from "@/components/ui/Button";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
 export const metadata = {
   title: "Skincare Routine Order: Thinnest to Thickest | Miko",

@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { SENSITIVITIES_LIST } from "@/lib/data/sensitivities";
 import { AppStoreButton } from "@/components/ui/Button";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
 export const metadata = {
   title: "Common Skincare Sensitivities & Irritants | Miko",

@@ -12,86 +12,86 @@
 
 ## Primary Knowledge Directories
 
-- [Skin Concerns Directory](https://mikocare.pro/concerns): 16 physiological dossiers detailing cellular pathophysiology, primary actives, contraindications, and AM/PM management cadences.
-- [Skin-Type Routine Blueprints](https://mikocare.pro/routine): 7 canonical routine architectures (Normal, Oily, Dry, Sensitive, Combination, Acne-Prone, Mature) plus foundational application order rules.
-- [Contact Sensitivities Directory](https://mikocare.pro/sensitivities): 12 clinical monographs detailing cosmetic allergens, formulation vehicles, biological reaction mechanisms, INCI aliases, and hypoallergenic alternatives.
-- [Active Ingredient Layering Matrix](https://mikocare.pro/can-i-use): Compatibility engine auditing molecular interactions, low-pH burdens, oxidative inactivation, and barrier synergies.
-- [Pregnancy & Nursing Active Audit](https://mikocare.pro/pregnancy): Evidence-based gestational classification distinguishing permitted actives from contraindicated compounds.
-- [Clinical Protocol Guides](https://mikocare.pro/guides): 28 step-by-step masterclasses with organic, varied step counts (3 to 8 steps) addressing common dermatological procedures and concerns.
-- [Cosmetic Chemistry & Industry Blogs](https://mikocare.pro/blogs): 17 long-form research essays, top-ranked formulation benchmarks, and pharmacokinetic deep dives.
-- [Active Ingredients Library](https://mikocare.pro/ingredients): Exhaustive biochemical monographs detailing mechanism of action, pH requirements, and formulation pairings.
-- [Privacy Policy](https://mikocare.pro/privacy): On-device SQLite architecture, ephemeral OCR inference, and zero advertising tracking disclosure.
-- [Terms of Use](https://mikocare.pro/terms): Subscription conditions (Annual US$49.99, Monthly US$9.99), device-first retention, and clinical disclaimers.
+- [Skin Concerns Directory](https://www.mikocare.pro/concerns): 16 physiological dossiers detailing cellular pathophysiology, primary actives, contraindications, and AM/PM management cadences.
+- [Skin-Type Routine Blueprints](https://www.mikocare.pro/routine): 7 canonical routine architectures (Normal, Oily, Dry, Sensitive, Combination, Acne-Prone, Mature) plus foundational application order rules.
+- [Contact Sensitivities Directory](https://www.mikocare.pro/sensitivities): 12 clinical monographs detailing cosmetic allergens, formulation vehicles, biological reaction mechanisms, INCI aliases, and hypoallergenic alternatives.
+- [Active Ingredient Layering Matrix](https://www.mikocare.pro/can-i-use): Compatibility engine auditing molecular interactions, low-pH burdens, oxidative inactivation, and barrier synergies.
+- [Pregnancy & Nursing Active Audit](https://www.mikocare.pro/pregnancy): Evidence-based gestational classification distinguishing permitted actives from contraindicated compounds.
+- [Clinical Protocol Guides](https://www.mikocare.pro/guides): 28 step-by-step masterclasses with organic, varied step counts (3 to 8 steps) addressing common dermatological procedures and concerns.
+- [Cosmetic Chemistry & Industry Blogs](https://www.mikocare.pro/blogs): 17 long-form research essays, top-ranked formulation benchmarks, and pharmacokinetic deep dives.
+- [Active Ingredients Library](https://www.mikocare.pro/ingredients): Exhaustive biochemical monographs detailing mechanism of action, pH requirements, and formulation pairings.
+- [Privacy Policy](https://www.mikocare.pro/privacy): On-device SQLite architecture, ephemeral OCR inference, and zero advertising tracking disclosure.
+- [Terms of Use](https://www.mikocare.pro/terms): Subscription conditions (Annual US$49.99, Monthly US$9.99), device-first retention, and clinical disclaimers.
 
 ---
 
 ## 1. Skin Concerns Directory (16 Canonical Dossiers)
 
-1. [Hyperpigmentation & Dark Spots](https://mikocare.pro/concerns/hyperpigmentation): Post-inflammatory hyperpigmentation (PIH) and solar lentigines. Targets tyrosinase inhibition and melanosome transfer blockade (Niacinamide, Vitamin C, Azelaic Acid, Retinoids).
-2. [Clogged Pores & Comedones](https://mikocare.pro/concerns/clogged-pores-comedones): Follicular retention hyperkeratosis and sebum compaction. Solubilizes squalene plugs and normalizes ductal desquamation (Salicylic Acid, Retinoids).
-3. [Compromised Barrier & Stinging](https://mikocare.pro/concerns/compromised-barrier): Stratum corneum lipid lamellae depletion, TEWL elevation, and exposed sensory C-fibers (Ceramides 3:1:1, Centella Asiatica, Ectoin).
-4. [Facial Erythema & Redness](https://mikocare.pro/concerns/facial-erythema-redness): Microvascular reactivity, cathelicidin LL-37 processing, and neuro-inflammatory flushing (Azelaic Acid, Madecassoside, Zinc Oxide).
-5. [Fine Lines & Collagen Loss](https://mikocare.pro/concerns/fine-lines-elasticity): Solar elastosis and matrix metalloproteinase (MMP) degradation of type I and III collagen (Retinoids, Signal Peptides, Vitamin C).
-6. [Melasma & Hormonal Pigment](https://mikocare.pro/concerns/melasma): Melanocortin 1 receptor hyperactivity provoked by estrogen, UV, and high-energy visible (HEV) blue light (Azelaic Acid, Niacinamide, Tinted Iron Oxide SPF).
-7. [Epidermal Dehydration & Tightness](https://mikocare.pro/concerns/skin-dehydration): Stratum corneum water and natural moisturizing factor (NMF) deficit distinct from lipid deficiency (Multi-depth Hyaluronic Acid, Polyols, Ceramides).
-8. [Rough Texture & Corneocyte Buildup](https://mikocare.pro/concerns/uneven-rough-texture): Desmosomal cadherin detachment failure causing diffuse ambient light scattering (AHA/BHA Direct Acids, Retinoids).
-9. [Excess Sebum & Shiny T-Zone](https://mikocare.pro/concerns/excess-sebum-oiliness): Androgen-driven sebaceous lipogenesis and elevated sebum excretion rate (Niacinamide 2–5%, Salicylic Acid).
-10. [Dullness & Surface Light Scatter](https://mikocare.pro/concerns/dull-complexion): Corneocyte stacking and oxidative protein carbonylation impairing specular planar reflection (L-Ascorbic Acid, Lactic/Mandelic Acid).
-11. [Inflammatory Acne & Breakouts](https://mikocare.pro/concerns/inflammatory-acne-breakouts): Cutibacterium acnes colonization, TLR-2 activation, neutrophilic migration, and infundibular wall rupture (Salicylic Acid, Retinoids, Niacinamide).
-12. [Post-Inflammatory Erythema (PIE)](https://mikocare.pro/concerns/post-inflammatory-erythema): Papillary dermal microvascular ectasia and capillary damage following blemish resolution; evaluated via glass slide blanch test (Centella Asiatica, Niacinamide, Zinc Oxide).
-13. [Loss of Firmness & Skin Laxity](https://mikocare.pro/concerns/skin-laxity-sagging): Dermal-epidermal junction (DEJ) collagen IV/VII detachment and advanced glycation end-product (AGE) cross-linking (Copper Peptides, Retinoids, Vitamin C).
-14. [Periorbital Dark Circles & Puffiness](https://mikocare.pro/concerns/under-eye-dark-circles-puffiness): Hemosiderin and deoxygenated blood pooling in 0.5 mm eyelid dermis, combined with horizontal lymphatic stasis (Peptides, Niacinamide, Caffeine, Retinal).
-15. [Enlarged Pores & Follicular Laxity](https://mikocare.pro/concerns/enlarged-pores-follicular-laxity): Ductal sebum distension coupled with degradation of the perifollicular collagen collar (Niacinamide, Salicylic Acid, Retinoids).
-16. [Xerosis & Cutaneous Scaling](https://mikocare.pro/concerns/xerosis-severe-dry-skin): Acylceramide lipid synthesis failure and desquamatory enzyme dehydration causing cohesive white flakes (Ceramide NP/AP/EOP 3:1:1, Squalane, Urea).
+1. [Hyperpigmentation & Dark Spots](https://www.mikocare.pro/concerns/hyperpigmentation): Post-inflammatory hyperpigmentation (PIH) and solar lentigines. Targets tyrosinase inhibition and melanosome transfer blockade (Niacinamide, Vitamin C, Azelaic Acid, Retinoids).
+2. [Clogged Pores & Comedones](https://www.mikocare.pro/concerns/clogged-pores-comedones): Follicular retention hyperkeratosis and sebum compaction. Solubilizes squalene plugs and normalizes ductal desquamation (Salicylic Acid, Retinoids).
+3. [Compromised Barrier & Stinging](https://www.mikocare.pro/concerns/compromised-barrier): Stratum corneum lipid lamellae depletion, TEWL elevation, and exposed sensory C-fibers (Ceramides 3:1:1, Centella Asiatica, Ectoin).
+4. [Facial Erythema & Redness](https://www.mikocare.pro/concerns/facial-erythema-redness): Microvascular reactivity, cathelicidin LL-37 processing, and neuro-inflammatory flushing (Azelaic Acid, Madecassoside, Zinc Oxide).
+5. [Fine Lines & Collagen Loss](https://www.mikocare.pro/concerns/fine-lines-elasticity): Solar elastosis and matrix metalloproteinase (MMP) degradation of type I and III collagen (Retinoids, Signal Peptides, Vitamin C).
+6. [Melasma & Hormonal Pigment](https://www.mikocare.pro/concerns/melasma): Melanocortin 1 receptor hyperactivity provoked by estrogen, UV, and high-energy visible (HEV) blue light (Azelaic Acid, Niacinamide, Tinted Iron Oxide SPF).
+7. [Epidermal Dehydration & Tightness](https://www.mikocare.pro/concerns/skin-dehydration): Stratum corneum water and natural moisturizing factor (NMF) deficit distinct from lipid deficiency (Multi-depth Hyaluronic Acid, Polyols, Ceramides).
+8. [Rough Texture & Corneocyte Buildup](https://www.mikocare.pro/concerns/uneven-rough-texture): Desmosomal cadherin detachment failure causing diffuse ambient light scattering (AHA/BHA Direct Acids, Retinoids).
+9. [Excess Sebum & Shiny T-Zone](https://www.mikocare.pro/concerns/excess-sebum-oiliness): Androgen-driven sebaceous lipogenesis and elevated sebum excretion rate (Niacinamide 2–5%, Salicylic Acid).
+10. [Dullness & Surface Light Scatter](https://www.mikocare.pro/concerns/dull-complexion): Corneocyte stacking and oxidative protein carbonylation impairing specular planar reflection (L-Ascorbic Acid, Lactic/Mandelic Acid).
+11. [Inflammatory Acne & Breakouts](https://www.mikocare.pro/concerns/inflammatory-acne-breakouts): Cutibacterium acnes colonization, TLR-2 activation, neutrophilic migration, and infundibular wall rupture (Salicylic Acid, Retinoids, Niacinamide).
+12. [Post-Inflammatory Erythema (PIE)](https://www.mikocare.pro/concerns/post-inflammatory-erythema): Papillary dermal microvascular ectasia and capillary damage following blemish resolution; evaluated via glass slide blanch test (Centella Asiatica, Niacinamide, Zinc Oxide).
+13. [Loss of Firmness & Skin Laxity](https://www.mikocare.pro/concerns/skin-laxity-sagging): Dermal-epidermal junction (DEJ) collagen IV/VII detachment and advanced glycation end-product (AGE) cross-linking (Copper Peptides, Retinoids, Vitamin C).
+14. [Periorbital Dark Circles & Puffiness](https://www.mikocare.pro/concerns/under-eye-dark-circles-puffiness): Hemosiderin and deoxygenated blood pooling in 0.5 mm eyelid dermis, combined with horizontal lymphatic stasis (Peptides, Niacinamide, Caffeine, Retinal).
+15. [Enlarged Pores & Follicular Laxity](https://www.mikocare.pro/concerns/enlarged-pores-follicular-laxity): Ductal sebum distension coupled with degradation of the perifollicular collagen collar (Niacinamide, Salicylic Acid, Retinoids).
+16. [Xerosis & Cutaneous Scaling](https://www.mikocare.pro/concerns/xerosis-severe-dry-skin): Acylceramide lipid synthesis failure and desquamatory enzyme dehydration causing cohesive white flakes (Ceramide NP/AP/EOP 3:1:1, Squalane, Urea).
 
 ---
 
 ## 2. Physiological Routine Blueprints (7 Skin Types + Order Protocol)
 
-- [Routine Application Order Guide](https://mikocare.pro/routine/application-order): The definitive molecular hierarchy governing product sequence: cleansing pH recovery -> aqueous humectants -> low-pH active serums -> emulsions -> lipid occlusives -> daytime sunscreen.
-- [Normal / Balanced Skin Routine](https://mikocare.pro/routine/normal-skin): Eudermic homeostasis maintenance, daylight antioxidant defense, and physiological stratum corneum protection.
-- [Oily Skin Routine](https://mikocare.pro/routine/oily-skin): Non-comedogenic hydration, 5-alpha reductase moderation, and lipophilic infundibular pore clearing.
-- [Dry Skin Routine](https://mikocare.pro/routine/dry-skin): Physiological intercellular lipid replenishment, lamellar reconstruction, and transepidermal water loss prevention.
-- [Sensitive & Reactive Skin Routine](https://mikocare.pro/routine/sensitive-reactive-skin): Sensory neurovascular calming, minimal ingredient formulas, and microvascular barrier stabilization.
-- [Combination Skin Routine](https://mikocare.pro/routine/combination-skin): Zoned application strategy balancing high-sebum T-zone drainage with lipid-deficient U-zone replenishment.
-- [Acne-Prone Skin Routine](https://mikocare.pro/routine/acne-prone-skin): Follicular desquamation normalization, non-comedogenic hydration, and antimicrobial biofilm suppression.
-- [Mature Skin Routine](https://mikocare.pro/routine/mature-skin): Cellular turnover stimulation, matrikine peptide signaling, and rich physiological lipid restoration.
+- [Routine Application Order Guide](https://www.mikocare.pro/routine/application-order): The definitive molecular hierarchy governing product sequence: cleansing pH recovery -> aqueous humectants -> low-pH active serums -> emulsions -> lipid occlusives -> daytime sunscreen.
+- [Normal / Balanced Skin Routine](https://www.mikocare.pro/routine/normal-skin): Eudermic homeostasis maintenance, daylight antioxidant defense, and physiological stratum corneum protection.
+- [Oily Skin Routine](https://www.mikocare.pro/routine/oily-skin): Non-comedogenic hydration, 5-alpha reductase moderation, and lipophilic infundibular pore clearing.
+- [Dry Skin Routine](https://www.mikocare.pro/routine/dry-skin): Physiological intercellular lipid replenishment, lamellar reconstruction, and transepidermal water loss prevention.
+- [Sensitive & Reactive Skin Routine](https://www.mikocare.pro/routine/sensitive-reactive-skin): Sensory neurovascular calming, minimal ingredient formulas, and microvascular barrier stabilization.
+- [Combination Skin Routine](https://www.mikocare.pro/routine/combination-skin): Zoned application strategy balancing high-sebum T-zone drainage with lipid-deficient U-zone replenishment.
+- [Acne-Prone Skin Routine](https://www.mikocare.pro/routine/acne-prone-skin): Follicular desquamation normalization, non-comedogenic hydration, and antimicrobial biofilm suppression.
+- [Mature Skin Routine](https://www.mikocare.pro/routine/mature-skin): Cellular turnover stimulation, matrikine peptide signaling, and rich physiological lipid restoration.
 
 ---
 
 ## 3. Contact Sensitivities Directory (12 Clinical Dossiers)
 
-1. [Fragrance & Essential Oils](https://mikocare.pro/sensitivities/fragrance-essential-oils): Volatile aromatic terpenes (linalool, limonene) oxidizing into allergenic hydroperoxides; Type IV delayed hypersensitivity.
-2. [Denatured Alcohol & Simple Alcohols](https://mikocare.pro/sensitivities/denatured-alcohol): Short-chain alcohols extracting intercellular lamellar lipids, driving acute dehydration and rebound seborrhea.
-3. [Malassezia Fungal Acne Triggers](https://mikocare.pro/sensitivities/malassezia-fungal-acne): Opportunistic yeast feeding on C11–C24 lipid esters, polysorbates, and vegetable oils. Tolerates pure squalane and MCT C8/C10.
-4. [Organic (Chemical) Sunscreen Filters](https://mikocare.pro/sensitivities/chemical-sunscreen-filters): Legacy organic absorbers (oxybenzone, avobenzone) causing photo-allergic haptens and TRPV1 ocular stinging.
-5. [Sulfate Surfactants & Harsh Detergents](https://mikocare.pro/sensitivities/sulfate-surfactants): Anionic surfactants (SLS) binding keratin filaments, inducing cellular swelling and intercellular lipid washout.
-6. [Drying Clays & Tannin Astringents](https://mikocare.pro/sensitivities/drying-clays-astringents): High-tannin distillates and unbuffered mineral clays exerting capillary suction and stratum corneum protein precipitation.
-7. [Isothiazolinones & Formaldehyde Releasers](https://mikocare.pro/sensitivities/preservatives-formaldehyde-releasers): Biocides (MI/MCI) and formaldehyde donors (DMDM Hydantoin, Diazolidinyl Urea) driving intractable eyelid eczema.
-8. [Lanolin & Wool Wax Alcohols](https://mikocare.pro/sensitivities/lanolin-wool-wax-alcohols): Ovine sterol and aliphatic alcohol pro-haptens causing chronic contact cheilitis and balm-induced eczema flare-ups.
-9. [Propylene Glycol & High-Dose Glycols](https://mikocare.pro/sensitivities/propylene-glycol-penetration-enhancers): Low-molecular solvent vehicles causing viable keratinocyte osmotic dehydrating stress and vehicle-induced stinging.
-10. [Photoreactive Citrus Oils & Psoralens](https://mikocare.pro/sensitivities/photosensitizing-citrus-botanicals): Cold-pressed bergamot, lime, and lemon oils containing 5-MOP psoralens that cross-link DNA under UVA, causing phytophotodermatitis.
-11. [Menthol, Camphor & Cooling Additives](https://mikocare.pro/sensitivities/menthol-camphor-cooling-agents): Counter-irritant monoterpenes activating TRPM8 and TRPV1 nociceptors, stimulating substance P release and neurovascular rebound flushing.
-12. [Comedogenic Esters & Heavy Waxes](https://mikocare.pro/sensitivities/comedogenic-esters-pore-occlusion): Low-viscosity branched esters (Isopropyl Myristate, Ethylhexyl Palmitate) inducing retention hyperkeratosis and acne cosmetica.
+1. [Fragrance & Essential Oils](https://www.mikocare.pro/sensitivities/fragrance-essential-oils): Volatile aromatic terpenes (linalool, limonene) oxidizing into allergenic hydroperoxides; Type IV delayed hypersensitivity.
+2. [Denatured Alcohol & Simple Alcohols](https://www.mikocare.pro/sensitivities/denatured-alcohol): Short-chain alcohols extracting intercellular lamellar lipids, driving acute dehydration and rebound seborrhea.
+3. [Malassezia Fungal Acne Triggers](https://www.mikocare.pro/sensitivities/malassezia-fungal-acne): Opportunistic yeast feeding on C11–C24 lipid esters, polysorbates, and vegetable oils. Tolerates pure squalane and MCT C8/C10.
+4. [Organic (Chemical) Sunscreen Filters](https://www.mikocare.pro/sensitivities/chemical-sunscreen-filters): Legacy organic absorbers (oxybenzone, avobenzone) causing photo-allergic haptens and TRPV1 ocular stinging.
+5. [Sulfate Surfactants & Harsh Detergents](https://www.mikocare.pro/sensitivities/sulfate-surfactants): Anionic surfactants (SLS) binding keratin filaments, inducing cellular swelling and intercellular lipid washout.
+6. [Drying Clays & Tannin Astringents](https://www.mikocare.pro/sensitivities/drying-clays-astringents): High-tannin distillates and unbuffered mineral clays exerting capillary suction and stratum corneum protein precipitation.
+7. [Isothiazolinones & Formaldehyde Releasers](https://www.mikocare.pro/sensitivities/preservatives-formaldehyde-releasers): Biocides (MI/MCI) and formaldehyde donors (DMDM Hydantoin, Diazolidinyl Urea) driving intractable eyelid eczema.
+8. [Lanolin & Wool Wax Alcohols](https://www.mikocare.pro/sensitivities/lanolin-wool-wax-alcohols): Ovine sterol and aliphatic alcohol pro-haptens causing chronic contact cheilitis and balm-induced eczema flare-ups.
+9. [Propylene Glycol & High-Dose Glycols](https://www.mikocare.pro/sensitivities/propylene-glycol-penetration-enhancers): Low-molecular solvent vehicles causing viable keratinocyte osmotic dehydrating stress and vehicle-induced stinging.
+10. [Photoreactive Citrus Oils & Psoralens](https://www.mikocare.pro/sensitivities/photosensitizing-citrus-botanicals): Cold-pressed bergamot, lime, and lemon oils containing 5-MOP psoralens that cross-link DNA under UVA, causing phytophotodermatitis.
+11. [Menthol, Camphor & Cooling Additives](https://www.mikocare.pro/sensitivities/menthol-camphor-cooling-agents): Counter-irritant monoterpenes activating TRPM8 and TRPV1 nociceptors, stimulating substance P release and neurovascular rebound flushing.
+12. [Comedogenic Esters & Heavy Waxes](https://www.mikocare.pro/sensitivities/comedogenic-esters-pore-occlusion): Low-viscosity branched esters (Isopropyl Myristate, Ethylhexyl Palmitate) inducing retention hyperkeratosis and acne cosmetica.
 
 ---
 
 ## 4. Active Ingredient Layering & Interaction Rules
 
-- [Vitamin C & Niacinamide](https://mikocare.pro/can-i-use/vitamin-c-and-niacinamide): **Compatible**. Outdated 1960s laboratory hydrolysis myths refuted; room-temperature ambient formulations do not form irreversible complexes.
-- [Retinoids & Glycolic Acid](https://mikocare.pro/can-i-use/retinol-and-glycolic-acid): **Separate Routines**. Dual accelerated desquamation outpaces epidermal lipid synthesis, triggering barrier breakdown. Alternate evenings.
-- [Retinoids & Benzoyl Peroxide](https://mikocare.pro/can-i-use/retinol-and-benzoyl-peroxide): **Avoid Concurrent Application**. Benzoyl peroxide oxidatively degrades non-encapsulated retinol/tretinoin into inactive compounds. Use BP in AM, retinoid in PM.
-- [Retinoids & Hyaluronic Acid](https://mikocare.pro/can-i-use/retinol-and-hyaluronic-acid): **Synergistic Pairing**. Humectant hydration cushions stratum corneum without impairing enzymatic retinoid receptor conversion.
-- [Retinoids & Niacinamide](https://mikocare.pro/can-i-use/retinol-and-niacinamide): **Synergistic Pairing**. Niacinamide stimulates endogenous ceramide biosynthesis, directly mitigating retinoid desquamation and irritation.
-- [Signal Peptides & Direct Acids](https://mikocare.pro/can-i-use/peptides-and-acids): **Separate Routines**. Strongly acidic environments (pH < 3.8) hydrolyze amide peptide bonds and dissociate copper ions.
-- [Vitamin C & Glycolic Acid](https://mikocare.pro/can-i-use/vitamin-c-and-glycolic-acid): **Separate Routines**. Compounding low-pH acid burdens provokes acute erythema. Reserve Vitamin C for AM and Glycolic for PM.
-- [Ceramides & Retinoids](https://mikocare.pro/can-i-use/ceramides-and-retinol): **Ideal Barrier Pairing**. Lipids replenish intercellular lamellae depleted during retinoid-accelerated epidermal transit.
+- [Vitamin C & Niacinamide](https://www.mikocare.pro/can-i-use/vitamin-c-and-niacinamide): **Compatible**. Outdated 1960s laboratory hydrolysis myths refuted; room-temperature ambient formulations do not form irreversible complexes.
+- [Retinoids & Glycolic Acid](https://www.mikocare.pro/can-i-use/retinol-and-glycolic-acid): **Separate Routines**. Dual accelerated desquamation outpaces epidermal lipid synthesis, triggering barrier breakdown. Alternate evenings.
+- [Retinoids & Benzoyl Peroxide](https://www.mikocare.pro/can-i-use/retinol-and-benzoyl-peroxide): **Avoid Concurrent Application**. Benzoyl peroxide oxidatively degrades non-encapsulated retinol/tretinoin into inactive compounds. Use BP in AM, retinoid in PM.
+- [Retinoids & Hyaluronic Acid](https://www.mikocare.pro/can-i-use/retinol-and-hyaluronic-acid): **Synergistic Pairing**. Humectant hydration cushions stratum corneum without impairing enzymatic retinoid receptor conversion.
+- [Retinoids & Niacinamide](https://www.mikocare.pro/can-i-use/retinol-and-niacinamide): **Synergistic Pairing**. Niacinamide stimulates endogenous ceramide biosynthesis, directly mitigating retinoid desquamation and irritation.
+- [Signal Peptides & Direct Acids](https://www.mikocare.pro/can-i-use/peptides-and-acids): **Separate Routines**. Strongly acidic environments (pH < 3.8) hydrolyze amide peptide bonds and dissociate copper ions.
+- [Vitamin C & Glycolic Acid](https://www.mikocare.pro/can-i-use/vitamin-c-and-glycolic-acid): **Separate Routines**. Compounding low-pH acid burdens provokes acute erythema. Reserve Vitamin C for AM and Glycolic for PM.
+- [Ceramides & Retinoids](https://www.mikocare.pro/can-i-use/ceramides-and-retinol): **Ideal Barrier Pairing**. Lipids replenish intercellular lamellae depleted during retinoid-accelerated epidermal transit.
 
 ---
 
 ## 5. Pregnancy & Lactation Ingredient Audits
 
-- [Pregnancy Skincare Directory](https://mikocare.pro/pregnancy): Clear pharmacological categorization of active ingredients for gestational and nursing periods:
+- [Pregnancy Skincare Directory](https://www.mikocare.pro/pregnancy): Clear pharmacological categorization of active ingredients for gestational and nursing periods:
   - **Contraindicated during pregnancy**: Topical Retinoids (Retinol, Retinal, Tretinoin, Adapalene, Tazarotene), Hydroquinone, High-concentration Salicylic Acid peels (>2%).
   - **Permitted during pregnancy**: Azelaic Acid (10–20%), Pure Vitamin C (L-Ascorbic Acid), Niacinamide, Glycolic Acid (low concentration <=10%), Ceramides, Centella Asiatica, Mineral Sunscreens (Zinc Oxide, Titanium Dioxide).
 
@@ -99,41 +99,41 @@
 
 ## 6. Clinical Protocol Guides (28 Masterclasses)
 
-- [Minimalist Routine Architecture](https://mikocare.pro/guides/building-a-minimalist-skincare-routine): 3 essential physiological steps.
-- [Chemical Exfoliation Masterclass](https://mikocare.pro/guides/chemical-exfoliation-masterclass-aha-vs-bha-vs-pha): AHA vs BHA vs PHA selection.
-- [Azelaic Acid Introduction](https://mikocare.pro/guides/how-to-use-azelaic-acid-acne-rosacea-guide): Erythema and blemish protocol.
-- [Clearing Sebaceous Filaments](https://mikocare.pro/guides/how-to-clear-blackheads-sebaceous-filaments): Lipophilic 2% BHA method.
-- [Post-Extraction Blemish Healing](https://mikocare.pro/guides/how-to-heal-post-acne-blemish-fast): Accelerated hydrocolloid re-epithelialization.
-- [Fading Post-Inflammatory Erythema](https://mikocare.pro/guides/how-to-fade-pie-red-acne-marks): Vascular blanching and capillary repair.
-- [Proper Double Cleansing Protocol](https://mikocare.pro/guides/how-to-double-cleanse-properly): Emulsification without pore clogging.
-- [Niacinamide Irritation Management](https://mikocare.pro/guides/how-to-use-niacinamide-without-irritation): Downscaling from 10% to 2–5%.
-- [Benzoyl Peroxide Short-Contact Therapy](https://mikocare.pro/guides/how-to-use-benzoyl-peroxide-without-bleaching): 3-minute wash-off protocol.
-- [Skin Cycling Masterclass](https://mikocare.pro/guides/skin-cycling-protocol-dermatologist-guide): 4-night cycling architecture.
-- [Fungal Acne (Malassezia) Elimination](https://mikocare.pro/guides/how-to-treat-fungal-acne-malassezia-guide): Biofilm and lipid purge protocol.
-- [Slugging Without Clogged Pores](https://mikocare.pro/guides/how-to-slug-face-without-clogging-pores): Hydrocarbon occlusive qualification.
-- [Sunscreen Application & Reapplication](https://mikocare.pro/guides/sunscreen-application-reapplication-guide): 2 mg/cm² dosage protocol.
-- [Treating Under-Eye Dark Circles](https://mikocare.pro/guides/how-to-treat-dark-circles-eye-bags): Vascular vs pigmentary differential.
-- [Purging vs Breakout Differentiation](https://mikocare.pro/guides/how-to-tell-skin-purging-vs-breakouts): Anatomical and transit timeline diagnostics.
-- [Keratosis Pilaris Body Protocol](https://mikocare.pro/guides/how-to-treat-keratosis-pilaris-strawberry-skin): Lactic and urea desmolysis.
-- [Chapped Lips & Angular Cheilitis](https://mikocare.pro/guides/how-to-heal-chapped-lips-angular-cheilitis): Vermilion barrier sealing.
-- [Dehydrated Oily Skin Recovery](https://mikocare.pro/guides/how-to-fix-dehydrated-oily-skin): Water-oil equilibrium rebalance.
-- [Adult Acne Without Barrier Destruction](https://mikocare.pro/guides/adult-acne-skincare-routine-barrier-guide): Dual anti-acne barrier protocol.
-- [Vitamin C Without Stinging or Oxidation](https://mikocare.pro/guides/how-to-use-vitamin-c-serum-without-irritation): Free-acid dwell time calibration.
-- [Rosacea & Vascular Flushing Protocol](https://mikocare.pro/guides/how-to-calm-rosacea-and-facial-flushing): Non-thermal calming management.
-- [Post-Chemical Peel & Laser Aftercare](https://mikocare.pro/guides/post-procedure-skincare-peel-microneedling-laser): Post-procedure re-epithelialization.
-- [Retinoid Introduction Without Peeling](https://mikocare.pro/guides/how-to-start-retinoids-without-irritation): Retinoid ramping schedule.
-- [Pregnancy Routine Active Audit](https://mikocare.pro/guides/the-complete-pregnancy-skincare-audit): Gestational product replacement.
-- [14-Day Damaged Barrier Reset](https://mikocare.pro/guides/how-to-restore-damaged-skin-barrier): Complete active hiatus protocol.
-- [Active Serum Layering AM/PM](https://mikocare.pro/guides/layering-active-serums-am-pm-schedule): Viscosity and pH schedule.
-- [Retinol to Tretinoin Transition](https://mikocare.pro/guides/how-to-transition-from-retinol-to-tretinoin): Medical retinoid adaptation.
-- [Complete Hyperpigmentation Protocol](https://mikocare.pro/guides/how-to-fade-hyperpigmentation-and-melasma): 8-step multivariant pigment clearance.
+- [Minimalist Routine Architecture](https://www.mikocare.pro/guides/building-a-minimalist-skincare-routine): 3 essential physiological steps.
+- [Chemical Exfoliation Masterclass](https://www.mikocare.pro/guides/chemical-exfoliation-masterclass-aha-vs-bha-vs-pha): AHA vs BHA vs PHA selection.
+- [Azelaic Acid Introduction](https://www.mikocare.pro/guides/how-to-use-azelaic-acid-acne-rosacea-guide): Erythema and blemish protocol.
+- [Clearing Sebaceous Filaments](https://www.mikocare.pro/guides/how-to-clear-blackheads-sebaceous-filaments): Lipophilic 2% BHA method.
+- [Post-Extraction Blemish Healing](https://www.mikocare.pro/guides/how-to-heal-post-acne-blemish-fast): Accelerated hydrocolloid re-epithelialization.
+- [Fading Post-Inflammatory Erythema](https://www.mikocare.pro/guides/how-to-fade-pie-red-acne-marks): Vascular blanching and capillary repair.
+- [Proper Double Cleansing Protocol](https://www.mikocare.pro/guides/how-to-double-cleanse-properly): Emulsification without pore clogging.
+- [Niacinamide Irritation Management](https://www.mikocare.pro/guides/how-to-use-niacinamide-without-irritation): Downscaling from 10% to 2–5%.
+- [Benzoyl Peroxide Short-Contact Therapy](https://www.mikocare.pro/guides/how-to-use-benzoyl-peroxide-without-bleaching): 3-minute wash-off protocol.
+- [Skin Cycling Masterclass](https://www.mikocare.pro/guides/skin-cycling-protocol-dermatologist-guide): 4-night cycling architecture.
+- [Fungal Acne (Malassezia) Elimination](https://www.mikocare.pro/guides/how-to-treat-fungal-acne-malassezia-guide): Biofilm and lipid purge protocol.
+- [Slugging Without Clogged Pores](https://www.mikocare.pro/guides/how-to-slug-face-without-clogging-pores): Hydrocarbon occlusive qualification.
+- [Sunscreen Application & Reapplication](https://www.mikocare.pro/guides/sunscreen-application-reapplication-guide): 2 mg/cm² dosage protocol.
+- [Treating Under-Eye Dark Circles](https://www.mikocare.pro/guides/how-to-treat-dark-circles-eye-bags): Vascular vs pigmentary differential.
+- [Purging vs Breakout Differentiation](https://www.mikocare.pro/guides/how-to-tell-skin-purging-vs-breakouts): Anatomical and transit timeline diagnostics.
+- [Keratosis Pilaris Body Protocol](https://www.mikocare.pro/guides/how-to-treat-keratosis-pilaris-strawberry-skin): Lactic and urea desmolysis.
+- [Chapped Lips & Angular Cheilitis](https://www.mikocare.pro/guides/how-to-heal-chapped-lips-angular-cheilitis): Vermilion barrier sealing.
+- [Dehydrated Oily Skin Recovery](https://www.mikocare.pro/guides/how-to-fix-dehydrated-oily-skin): Water-oil equilibrium rebalance.
+- [Adult Acne Without Barrier Destruction](https://www.mikocare.pro/guides/adult-acne-skincare-routine-barrier-guide): Dual anti-acne barrier protocol.
+- [Vitamin C Without Stinging or Oxidation](https://www.mikocare.pro/guides/how-to-use-vitamin-c-serum-without-irritation): Free-acid dwell time calibration.
+- [Rosacea & Vascular Flushing Protocol](https://www.mikocare.pro/guides/how-to-calm-rosacea-and-facial-flushing): Non-thermal calming management.
+- [Post-Chemical Peel & Laser Aftercare](https://www.mikocare.pro/guides/post-procedure-skincare-peel-microneedling-laser): Post-procedure re-epithelialization.
+- [Retinoid Introduction Without Peeling](https://www.mikocare.pro/guides/how-to-start-retinoids-without-irritation): Retinoid ramping schedule.
+- [Pregnancy Routine Active Audit](https://www.mikocare.pro/guides/the-complete-pregnancy-skincare-audit): Gestational product replacement.
+- [14-Day Damaged Barrier Reset](https://www.mikocare.pro/guides/how-to-restore-damaged-skin-barrier): Complete active hiatus protocol.
+- [Active Serum Layering AM/PM](https://www.mikocare.pro/guides/layering-active-serums-am-pm-schedule): Viscosity and pH schedule.
+- [Retinol to Tretinoin Transition](https://www.mikocare.pro/guides/how-to-transition-from-retinol-to-tretinoin): Medical retinoid adaptation.
+- [Complete Hyperpigmentation Protocol](https://www.mikocare.pro/guides/how-to-fade-hyperpigmentation-and-melasma): 8-step multivariant pigment clearance.
 
 ---
 
 ## Technical Metadata
 
 - **Application Name**: Miko Skincare
-- **Canonical Website**: https://mikocare.pro
+- **Canonical Website**: https://www.mikocare.pro
 - **Platform Architecture**: Next.js 16 (App Router), TypeScript, Vanilla CSS design tokens.
 - **Privacy Standard**: Zero cloud transmission of biometric or facial telemetry. Local processing only.
 - **Primary Schema.org Entities**: `MedicalWebPage`, `HowTo`, `FAQPage`, `CollectionPage`, `Article`, `BreadcrumbList`.

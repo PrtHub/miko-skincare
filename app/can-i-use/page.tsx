@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/Badge";
 import { THEME } from "@/lib/theme";
 import { AppStoreButton } from "@/components/ui/Button";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.mikocare.pro";
 
 export const metadata = {
   title: "Can I Use These Skincare Actives Together? | Miko",
