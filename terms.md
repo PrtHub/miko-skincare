@@ -39,10 +39,10 @@ dermatologist, or a guarantee about any product's safety, contents or effect.
 
 Miko is subscription-only. There is no free tier and no limited free mode.
 
-| Plan       | Price        | Billing     |
-| ---------- | ------------ | ----------- |
-| **Annual** | **US$49.99** | Once a year |
-| **Weekly** | **US$7.99**  | Once a week |
+| Plan        | Price        | Billing      |
+| ----------- | ------------ | ------------ |
+| **Annual**  | **US$49.99** | Once a year  |
+| **Monthly** | **US$9.99**  | Once a month |
 
 Prices shown are for the United States storefront. Prices in your local
 currency are set by Apple for your region and are shown in the app before you
@@ -74,7 +74,7 @@ it, will need your consent before taking effect.
 ## 4. Your data stays on your device
 
 Miko has no account and stores nothing about you on a server. That is described
-in full in the [Privacy Policy](./privacy-policy.md).
+in full in the [Privacy Policy](./privacy.md).
 
 The consequence you need to know about is in these terms rather than that one:
 
@@ -231,15 +231,16 @@ and the benefit of your local consumer protection law.
    matches what the app displays. Leaving it in once it is false would be worse
    than never having written it.
 3. **§3 must match App Store Connect exactly** — product names, prices, periods.
-   The prices are also hard-coded in `src/components/paywall/PaywallView.tsx`
-   pending RevenueCat; when that is wired, this table and the paywall should
-   both come from the store's offerings.
-4. **A weekly plan invites scrutiny.** US$7.99 a week is US$415.48 a year
-   against a US$49.99 annual plan. That comparison is the point, and it is also
-   the shape App Review looks at hardest on apps with low session frequency —
-   docs/subscriptions.md §1 estimates roughly six high-intent sessions a year,
-   which is about US$7.99 per session for a weekly subscriber. Make sure the
-   renewal terms are unmissable on the paywall itself, and expect questions.
+   The paywall now reads its prices from the RevenueCat offering
+   (`pricesFromOffering` in `src/purchases/map.ts`), so what a customer sees is
+   the storefront's own number. This table is the last place a price is written
+   by hand, which makes it the one that can drift from what is charged.
+4. **No trial, and no free tier.** Both are deliberate
+   (docs/subscriptions.md §2), and together they mean the first thing a new user
+   is asked to do is pay. The renewal terms therefore have to be unmissable on
+   the paywall itself rather than only here — they are, in `styles.terms`. A
+   weekly tier was considered and dropped for the scrutiny it attracts on
+   low-engagement apps; monthly at US$9.99 raises none of that.
 5. **Fill every `[BRACKET]`**, and pick the jurisdiction deliberately — India
    and the UK give different answers on consumer rights and on the liability cap
    in §10.

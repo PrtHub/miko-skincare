@@ -25,7 +25,7 @@ const ibmPlexMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app"
+    process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro"
   ),
   title: "Miko — Skincare Routine Builder & Ingredient Layering",
   description:
@@ -102,14 +102,14 @@ export default function RootLayout({
       {
         "@type": "Organization",
         name: "Miko Skincare",
-        url: "https://miko-skincare.app",
-        logo: "https://miko-skincare.app/miko-mark-master.jpg",
+        url: "https://mikocare.pro",
+        logo: "https://mikocare.pro/miko-mark-master.jpg",
         description: "Impartial skincare routine builder and cosmetic ingredient decoder.",
       },
       {
         "@type": "WebSite",
         name: "Miko Skincare",
-        url: "https://miko-skincare.app",
+        url: "https://mikocare.pro",
         description: "Decodes skincare labels into plain biology, checks ingredient conflicts, and builds personalized routines.",
       },
       {

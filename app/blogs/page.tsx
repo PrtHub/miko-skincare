@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { BLOG_POSTS } from "@/lib/data/blogs";
 import { AppStoreButton } from "@/components/ui/Button";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
 
 export const metadata = {
   title: "Skincare Science & Formulation Blog | Miko",

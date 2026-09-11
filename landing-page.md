@@ -278,17 +278,17 @@ to earn it on every line.
 
 ## 7. Pricing block
 
-| Plan       | Price               | Presentation                                                |
-| ---------- | ------------------- | ----------------------------------------------------------- |
-| **Annual** | **US$49.99 / year** | Default. Show `$4.17 a month, billed yearly` and `Save 88%` |
-| Weekly     | US$7.99 / week      | Second, never preselected                                   |
+| Plan        | Price               | Presentation                                                |
+| ----------- | ------------------- | ----------------------------------------------------------- |
+| **Annual**  | **US$49.99 / year** | Default. Show `$4.17 a month, billed yearly` and `Save 58%` |
+| **Monthly** | **US$9.99 / month** | Second, never preselected                                   |
 
-The saving is derived, not typed: `1 − 49.99 / (7.99 × 52)` = 88%. If the site
+The saving is derived, not typed: `1 − 49.99 / (9.99 × 12)` = 58%. If the site
 hard-codes it, it will eventually disagree with the app.
 
 **Required on any surface showing price:** that it renews automatically until
 cancelled, that it is managed in Apple ID settings, and links to
-[Terms](./terms.md) and the [Privacy Policy](./privacy-policy.md).
+[Terms](./terms.md) and the [Privacy Policy](./privacy.md).
 
 **No free tier.** Do not imply a trial, a free plan, or a limited free mode —
 none exists.

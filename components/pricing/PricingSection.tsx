@@ -4,11 +4,11 @@ import React, { useState } from "react";
 import { AppStoreButton } from "@/components/ui/Button";
 
 export function PricingSection() {
-  const [billingCycle, setBillingCycle] = useState<"annual" | "weekly">("annual");
+  const [billingCycle, setBillingCycle] = useState<"annual" | "monthly">("annual");
 
   const annualMonthlyEquivalent = (49.99 / 12).toFixed(2);
-  const weeklyAnnualized = (7.99 * 52).toFixed(2);
-  const savingsPercent = Math.round((1 - 49.99 / (7.99 * 52)) * 100);
+  const monthlyAnnualized = (9.99 * 12).toFixed(2);
+  const savingsPercent = Math.round((1 - 49.99 / (9.99 * 12)) * 100);
 
   return (
     <section id="pricing" className="py-20 md:py-28 border-t border-[#EFE7DC]">
@@ -46,14 +46,14 @@ export function PricingSection() {
                 Annual (Save {savingsPercent}%)
               </button>
               <button
-                onClick={() => setBillingCycle("weekly")}
+                onClick={() => setBillingCycle("monthly")}
                 className={`px-5 py-2 rounded-full text-xs font-mono transition-all ${
-                  billingCycle === "weekly"
+                  billingCycle === "monthly"
                     ? "bg-[#241E19] text-[#FBF7F2] font-semibold shadow-2xs"
                     : "text-[#554C43] hover:text-[#241E19]"
                 }`}
               >
-                Weekly
+                Monthly
               </button>
             </div>
           </div>
@@ -69,22 +69,22 @@ export function PricingSection() {
 
             <div className="space-y-2 border-b border-[#EFE7DC] pb-6">
               <span className="font-serif text-xl text-[#241E19] block">
-                {billingCycle === "annual" ? "Annual Plan" : "Weekly Plan"}
+                {billingCycle === "annual" ? "Annual Plan" : "Monthly Plan"}
               </span>
 
               <div className="flex items-baseline gap-2">
                 <span className="font-serif text-4xl sm:text-5xl font-bold text-[#241E19]">
-                  {billingCycle === "annual" ? "US$49.99" : "US$7.99"}
+                  {billingCycle === "annual" ? "US$49.99" : "US$9.99"}
                 </span>
                 <span className="text-sm font-mono text-[#7C7166]">
-                  {billingCycle === "annual" ? "/ year" : "/ week"}
+                  {billingCycle === "annual" ? "/ year" : "/ month"}
                 </span>
               </div>
 
               <p className="text-xs font-mono text-[#554C43] pt-1">
                 {billingCycle === "annual"
                   ? `$${annualMonthlyEquivalent} a month, billed yearly`
-                  : `Billed weekly ($${weeklyAnnualized}/year equivalent)`}
+                  : `Billed monthly ($${monthlyAnnualized}/year equivalent)`}
               </p>
             </div>
 

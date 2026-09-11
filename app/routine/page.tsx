@@ -5,7 +5,7 @@ import { Footer } from "@/components/layout/Footer";
 import { SKIN_TYPES_LIST } from "@/lib/data/skinTypes";
 import { AppStoreButton } from "@/components/ui/Button";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
 
 export const metadata = {
   title: "Skincare Routine by Skin Type: AM & PM Guides | Miko",

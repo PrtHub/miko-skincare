@@ -3,7 +3,7 @@ import Link from "next/link";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 
-const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://miko-skincare.app";
+const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://mikocare.pro";
 
 export const metadata = {
   title: "Support & Subscription Help | Miko Skincare",
@@ -192,10 +192,10 @@ export default function SupportPage() {
             </p>
             <div className="pt-2">
               <a
-                href="mailto:support@miko-skincare.app"
+                href="mailto:support@mikocare.pro"
                 className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-[#241E19] text-[#FBF7F2] font-mono text-xs hover:bg-[#383028] transition-colors"
               >
-                <span>Email Support → support@miko-skincare.app</span>
+                <span>Email Support → support@mikocare.pro</span>
               </a>
             </div>
           </div>
